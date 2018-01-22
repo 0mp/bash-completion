@@ -44,6 +44,14 @@ sudo yum install dejagnu tcllib
 -------------
 This should also install the necessary `expect` and `tcl` packages.
 
+FreeBSD
+~~~~~~~
+
+On FreeBSD you can use `pkg`:
+-------------
+pkg install dejagnu tcllib
+-------------
+This should also install the necessary `expect` and `tcl` packages.
 
 
 Structure
