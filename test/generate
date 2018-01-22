@@ -1,10 +1,11 @@
-#!/bin/bash -eu
+#!/usr/bin/env bash
 # Generate skeleton files for completion of specified command.
 # Test skeleton files are generated as well.
 # @param $1 string  Command, e.g. 'make'
 # @param $2 string  Completion function, e.g. _command
 # @param $3 string  Completion arguments, e.g. '-o filenames'
 
+set -eu
 
 # Generate test code
 # @param $1 string  Command, e.g. 'make'

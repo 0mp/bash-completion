@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # NOTE: I tried setting up bash_completion_lib within ./lib files, but DejaGnu
 #       isn't initialized at that point (i.e. output of `expect' is shown on
